@@ -16,7 +16,6 @@ body {
 
 .logo {
   padding-left: 5px;
-  width: 240px;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -24,17 +23,22 @@ body {
 
 .login {
   padding-right: 5px;
-  width: 240px;
+  width: 80px;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
+  border-radius: 20px;
 }
 
 .links {
   width: 720px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+a {
+  color: white;
 }
 
 header {
@@ -76,12 +80,7 @@ header .navbar .row {
 }
 
 .violet-box {
-  min-height: 400px;
   width: 900px;
-  border: solid black;
-  justify-content: center;
-  align-items: flex-start;
-  display: flex;
 }
 
 h1 {
@@ -89,14 +88,42 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 60px;
 }
 
 .header-p {
-  color: rgb(41, 45, 46);
+  color: white;
   display: flex;
   text-align: center;
   justify-content: center;
+  align-items: center;
 }
+
+.bottoni {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.jumbo-button-white {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.jumbo-button-black {
+  background-color: rgb(35, 41, 44);
+  color: white;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
 
 /*****************MAIN******************/
 
@@ -193,43 +220,41 @@ h4 {
   font-size: 40px;
 }
 
-.main-button {}
+.main-button {
+  background-color: rgb(112, 132, 214);
+  color: white;
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+}
 
 /******************FOOTER*****************/
 
 .black-container {
   min-height: 630px;
-  background-color: black;
+  background-color: rgb(35, 39, 42);
   display: flex;
   align-items: center;
   justify-content: center;
-  border: solid black;
 }
 
 .salmon-box {
   min-height: 580px;
   width: 360px;
-  background-color: rgb(240, 129, 128);
-  border: solid white;
 }
 
 .acqua-box {
   min-height: 580px;
   width: 210px;
-  background-color: rgb(32, 179, 170);
-  border: solid white;
+  color: rgb(112, 132, 214);
+  text-align: center;
+  font-size: 25px;
 }
 
-hr {
-  color: white;
-  background-color: white;
-  border: 0;
-  height: 1px;
-}
 
 .little-black-container {
   min-height: 110px;
-  background-color: black;
+  background-color: rgb(35, 39, 42);
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -241,23 +266,54 @@ hr {
   align-items: center;
   min-height: 80px;
   width: 1200px;
-  background-color: rgb(127, 255, 212);
+}
+
+hr {
+  color: white;
+  background-color: white;
+  height: 1px;
 }
 
 .end-logo {
   min-height: 35px;
   width: 65px;
-  border: solid black;
-  background-color: rgb(255, 192, 202);
   align-items: center;
   justify-content: center;
 }
 
 .end-button {
-  min-height: 35px;
-  width: 65px;
-  border: solid black;
-  background-color: rgb(255, 192, 202);
+  color: white;
+  min-height: 45px;
+  width: 85px;
+  background-color: rgb(143, 163, 233);
   align-items: center;
   justify-content: center;
+  border-radius: 20px;
+}
+
+h5 {
+  color: rgb(112, 132, 214);
+  text-align: left;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.italiano {
+  color: white;
+  padding: 0;
+  padding-left: 5px;
+}
+
+.prova {
+  display: flex;
+}
+
+.icons {
+  color: white;
+  padding-top: 20px;
+}
+
+i {
+  padding: 10px;
+  font-size: 30px;
 }
