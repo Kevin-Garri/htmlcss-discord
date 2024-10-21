@@ -28,6 +28,8 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .links {
@@ -39,6 +41,7 @@ body {
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 header {
@@ -113,6 +116,7 @@ h1 {
   width: 200px;
   height: 50px;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .jumbo-button-black {
@@ -122,6 +126,7 @@ h1 {
   width: 200px;
   height: 50px;
   font-size: 20px;
+  font-weight: bold;
 }
 
 
@@ -193,6 +198,7 @@ p {
 .green-box {
   width: 1200px;
   min-height: 900px;
+  text-align: center;
 }
 
 h3 {
@@ -226,6 +232,9 @@ h4 {
   height: 50px;
   width: 200px;
   border-radius: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /******************FOOTER*****************/
@@ -247,7 +256,7 @@ h4 {
   min-height: 580px;
   width: 210px;
   color: rgb(112, 132, 214);
-  text-align: center;
+  text-align: start;
   font-size: 25px;
 }
 
@@ -289,11 +298,13 @@ hr {
   align-items: center;
   justify-content: center;
   border-radius: 20px;
+  font-weight: bold;
+
 }
 
 h5 {
   color: rgb(112, 132, 214);
-  text-align: left;
+  text-align: start;
   padding: 20px;
   font-size: 40px;
 }
@@ -302,10 +313,13 @@ h5 {
   color: white;
   padding: 0;
   padding-left: 5px;
+  vertical-align: middle;
 }
 
 .prova {
   display: flex;
+  width: 30px;
+  height: 30px;
 }
 
 .icons {
@@ -316,4 +330,12 @@ h5 {
 i {
   padding: 10px;
   font-size: 30px;
+}
+
+li {
+  color: white;
+  list-style: none;
+  margin-bottom: 20px;
+  text-align: start;
+  margin-top: 20px;
 }
