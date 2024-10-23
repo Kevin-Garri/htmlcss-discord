@@ -30,6 +30,7 @@ body {
   border-radius: 20px;
   font-size: 15px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .links {
@@ -117,6 +118,7 @@ h1 {
   height: 50px;
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .jumbo-button-black {
@@ -127,6 +129,7 @@ h1 {
   height: 50px;
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 
@@ -235,6 +238,7 @@ h4 {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 /******************FOOTER*****************/
@@ -299,6 +303,7 @@ hr {
   justify-content: center;
   border-radius: 20px;
   font-weight: bold;
+  cursor: pointer;
 
 }
 
